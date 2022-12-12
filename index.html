@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Language Survey</title>
+    </head>
+    <body>
+        <h1>Web Language Survey</h1>
+        <form action="process.php" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="first_name" id="firstName" placeholder="Type first name here">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="last_name" id="lastName" placeholder="Type last name here">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Type email here">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select name="status" id="status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                <h3>Choose One</h3>
+                    <div>
+                    <p>Choose your favorite web language:</p>
+                        <label for="html">HTML</label>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <br>
+                        <label for="css">CSS</label>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <br>
+                        <label for="javascript">JavaScript</label>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <br>
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+                </div>
+                    <br>
+                    <br>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                    <br>
+                    <br>
+                <div>
+                    <label for="newsletter">Sign Up for the Newsletter</label>
+                    <input type="checkbox" id="newsletter" name="wantNewsletter" value="yes">
+                </div>
+                <div>
+                    <label for="terms">Agree to Terms & Conditions</label>
+                    <input type="checkbox" id="terms" name="agreeToTermsConditions" value="yes">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" name="submit" value="submit">
+                </div>
+                </div>
+
+            </fieldset>
+
+
+
+        </form>
+    </body>
+
+
+</html>
+
+
+<!-- In this project, you are creating a basic survey form for
+    the students and faculty of a/A to find out what their favorite
+    programming language is with any additional comments they would
+    like to submit. -->
